@@ -229,6 +229,7 @@ html{
 
 .zz .col:last-child{
     position: relative;
+    width: fit-content;
 }
 
 .zz .col:last-child::after
@@ -239,10 +240,10 @@ html{
     background-color: var(--secondary-color);
     position: absolute;
     top: 0;
-    right: 0;
+    right: -50px;
     margin-top:-25px ;
     z-index: -1;
-    margin-right: -50px;
+    
 
 }
 @media(max-width:1199.5px)
